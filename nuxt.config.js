@@ -26,7 +26,7 @@ export default {
    */
   plugins: [
     { src: '~/plugins/vuelidate.js' },
-    { src: '~plugins/vue-js-modal', ssr: false, mode: 'client' },
+    { src: '~plugins/vue-js-modal.js' },
     { src: '~/plugins/vue2-google-maps.js', ssr: false, mode: 'client' },
     { src: '~/plugins/vue-inputmask.js', ssr: false, mode: 'client' },
   ],
