@@ -341,12 +341,13 @@ export default {
           this.form.submitStatus = 'ERROR'
         } else {
           const phone = this.form.phone.replace(/\D/g, '')
-          const res = await this.$axios.post('http://httpbin.org/post', {
+          const res = await this.$axios.post('https://httpbin.org/post', {
             name: this.form.name,
             phone,
             email: this.form.email,
           })
-          if (res.statusText === 'OK') {
+          console.log('res', res)
+          if (res.status === 200) {
             this.form.name = ''
             this.form.phone = ''
             this.form.email = ''
