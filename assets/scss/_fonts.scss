@@ -1,0 +1,26 @@
+$SuisseIntlPath: '~assets/fonts/SuisseIntl';
+
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('#{$SuisseIntlPath}/SuisseIntl-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('#{$SuisseIntlPath}/SuisseIntl.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('#{$SuisseIntlPath}/SuisseIntl-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

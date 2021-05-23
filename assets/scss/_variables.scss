@@ -1,0 +1,61 @@
+$spacers: (
+  0: 0px,
+  1: 1px,
+  2: 2px,
+  4: 4px,
+  5: 5px,
+  6: 6px,
+  8: 8px,
+  10: 10px,
+  11: 11px,
+  12: 12px,
+  13: 13px,
+  14: 14px,
+  15: 15px,
+  16: 16px,
+  18: 18px,
+  20: 20px,
+  21: 21px,
+  22: 22px,
+  24: 24px,
+  25: 25px,
+  27: 27px,
+  30: 30px,
+  32: 32px,
+  33: 33px,
+  34: 34px,
+  35: 35px,
+  40: 40px,
+  45: 45px,
+  47: 47px,
+  50: 50px,
+  60: 60px,
+  85: 85px,
+  90: 90px,
+  93: 93px,
+  95: 95px,
+  100: 100px,
+  150: 150px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  // sm: 456px,
+  sm: 577px,
+  md: 768px,
+  lg: 1280px,
+);
+
+$container-max-widths: (
+  sm: 557px,
+  md: 720px,
+  lg: 1190px,
+);
+
+// базовые стили текста параграфа
+$font-family-base: 'SuisseIntl', sans-serif;
+
+// Заголовки
+$headings-font-family: 'SuisseIntl', sans-serif !default;
+
+$link-color:                 #3db565;
